@@ -59,8 +59,6 @@ for product in products:
 department_name = list(set(department_name))
 department_name.sort()
 
-def count_depts(department_name):
-    return [prodcut for product in products if product["department"] == department_name]
 
 def get_products(department_name):
     return [product for product in products if product["department"] == department_name]
